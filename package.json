@@ -1,0 +1,27 @@
+{
+  "name": "@mattplays/randomdog.js",
+  "version": "1.0.0",
+  "description": "randomdog.js utilizes the randomdog API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattPlays/randomdog.js.git"
+  },
+  "keywords": [
+    "randomdog",
+    "dogs",
+    "API"
+  ],
+  "author": "MattPlays (https://github.com/MattPlays)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattPlays/randomdog.js/issues"
+  },
+  "homepage": "https://github.com/MattPlays/randomdog.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
