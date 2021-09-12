@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+const axios = require("axios").default;
 /**
  * @returns {Promise<{fileSizeBytes: number, urL: string}>}
  * @example
@@ -8,12 +8,13 @@ const fetch = require("node-fetch");
  * })
  */
 module.exports = async() => {
-    return fetch("https://random.dog/woof.json", {
-        "method": "GET",
-        "headers": {
+    return axios({
+        method: "GET",
+        url: "https://random.dog/woof.json",
+        headers: {
             "Accept": "application/json"
         }
-    }).then(data => data.json()).then((data) => {
+    }).then(({data}) => {
         return data;
     }).catch((err) => {throw new Error(err)});
 }
