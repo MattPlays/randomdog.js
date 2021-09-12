@@ -1,6 +1,6 @@
 {
   "name": "@mattplays/randomdog.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "randomdog.js utilizes the randomdog API",
   "main": "index.js",
   "scripts": {
